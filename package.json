@@ -1,0 +1,25 @@
+{
+  "name": "ts_web_app",
+  "version": "1.0.0",
+  "description": "### Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./src/starter.ts",
+    "init": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksymenko/ts_web_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksymenko/ts_web_app/issues"
+  },
+  "homepage": "https://github.com/maksymenko/ts_web_app#readme",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}
