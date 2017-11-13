@@ -1,6 +1,9 @@
+import {Service} from './service';
+
 class Starter {
   hello() {
-    console.log('hello');
+    let service = new Service();
+    service.sayHello('Tom');
   }
 }
 let myStarter = new Starter();

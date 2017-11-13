@@ -1,12 +1,13 @@
 {
   "name": "ts_web_app",
   "version": "1.0.0",
-  "description": "### Getting started",
-  "main": "index.js",
+  "description": "### Getting started typescript web app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc ./src/starter.ts",
-    "init": "tsc --init"
+    "init": "tsc --init",
+    "compile": "tsc -p ./",
+    "build": "webpack",
+    "devserver": "webpack-dev-server --port 8000 --inline --hot --progress  --history-api-fallback --color --content-base app --hot"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   },
   "homepage": "https://github.com/maksymenko/ts_web_app#readme",
   "devDependencies": {
-    "typescript": "^2.6.1"
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }
